@@ -10,11 +10,22 @@ public class Main {
         boolean flag = false;
         byte aByte = 1;
         short aShort;
-        int aInt = 10;
+        int aInt = aByte;
+        int bInt = 11;
         Integer boxed = null;
         long aLong = 123L;
         float aFloat = 1.2F;
         double aDouble = 1.2D;
+        String aString = "Pushkin";
+        String aString0 = "Pushkin";
+
+        System.out.println(aInt + bInt);
+        System.out.println(aInt - bInt);
+        System.out.println(aInt * bInt);
+        System.out.println(aInt / bInt);
+        System.out.println(aInt % bInt);
+
+
 
     }
 }
