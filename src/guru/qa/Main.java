@@ -19,12 +19,26 @@ public class Main {
         String aString = "Pushkin";
         String aString0 = "Pushkin";
 
+        System.out.println(aByte);
         System.out.println(aInt + bInt);
         System.out.println(aInt - bInt);
         System.out.println(aInt * bInt);
         System.out.println(aInt / bInt);
         System.out.println(aInt % bInt);
+        System.out.println();
 
+        String start, middle, end, result;
+        start = "Когда-нибудь";
+        middle = " я смогу выучить";
+        end = " всё это и понять.";
+        result = start + middle + end;
+        System.out.println(result);
+        System.out.println();
+
+        System.out.println("+aDouble = " + +aDouble);
+        System.out.println("-aDouble = " + -aDouble);
+        System.out.println("aDouble = " + ++aDouble);
+        System.out.println("aDouble = " + --aDouble);
 
 
     }
