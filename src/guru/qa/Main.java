@@ -40,6 +40,5 @@ public class Main {
         System.out.println("aDouble = " + ++aDouble);
         System.out.println("aDouble = " + --aDouble);
 
-
     }
 }
