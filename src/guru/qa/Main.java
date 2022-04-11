@@ -8,7 +8,7 @@ public class Main {
         char symbol, anotherSymbol;
         symbol = 'w';
         boolean flag = false;
-        byte aByte = 1;
+        byte aByte = 127;
         short aShort;
         int aInt = aByte;
         int bInt = 11;
@@ -19,6 +19,7 @@ public class Main {
         String aString = "Pushkin";
         String aString0 = "Pushkin";
 
+        // арифметика
         System.out.println(aByte);
         System.out.println(aInt + bInt);
         System.out.println(aInt - bInt);
@@ -57,6 +58,12 @@ public class Main {
         resul = (number1 > number2) && (number3 > number1);
         System.out.println(resul);
         System.out.println();
+
+        // перевыполнения
+        System.out.println((++aByte) + 20);
+        System.out.println((--aByte) + 20);
+        System.out.println(aByte++);
+        System.out.println(aByte);
 
     }
 }
