@@ -15,7 +15,7 @@ public class Main {
         Integer boxed = null;
         long aLong = 123L;
         float aFloat = 1.2F;
-        double aDouble = 1.2D;
+        double aDouble = 1.2;
         String aString = "Pushkin";
         String aString0 = "Pushkin";
 
@@ -23,22 +23,40 @@ public class Main {
         System.out.println(aInt + bInt);
         System.out.println(aInt - bInt);
         System.out.println(aInt * bInt);
-        System.out.println(aInt / bInt);
-        System.out.println(aInt % bInt);
+        System.out.println(aLong / aInt);
+        System.out.println(aLong % aInt);
         System.out.println();
 
-        String start, middle, end, result;
+        String start, middle, end, res;
         start = "Когда-нибудь";
         middle = " я смогу выучить";
         end = " всё это и понять.";
-        result = start + middle + end;
-        System.out.println(result);
+        res = start + middle + end;
+        System.out.println(res);
         System.out.println();
 
         System.out.println("+aDouble = " + +aDouble);
         System.out.println("-aDouble = " + -aDouble);
         System.out.println("aDouble = " + ++aDouble);
         System.out.println("aDouble = " + --aDouble);
+        System.out.println(aDouble++);
+        System.out.println(aDouble);
+        System.out.println(++aDouble);
+        System.out.println();
+
+        int februaryDays = 29;
+        String result;
+        result =  (februaryDays == 28) ? "Не високосный год" : "Високосный год";
+        System.out.println(result);
+        System.out.println();
+
+        int number1 = 1, number2 = 2, number3 = 9;
+        boolean resul;
+        resul = (number1 > number2) || (number3 > number1);
+        System.out.println(resul);
+        resul = (number1 > number2) && (number3 > number1);
+        System.out.println(resul);
+        System.out.println();
 
     }
 }
